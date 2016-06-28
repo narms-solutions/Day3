@@ -16,6 +16,15 @@ namespace Day3
         public string Color;
         public Engine Engine;
 
+      public Autocustomer customer = new Autocustomer();
+
+        public class Autocustomer
+        {
+            public string LastName;
+            public string Address;
+            public DateTime DateOfPurchace;
+        }
+
         public string Maker
         {
             get { return make; }

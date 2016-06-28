@@ -13,6 +13,7 @@ namespace Day3
 
 
         {
+            
             Engine v4 = new Engine();
             v4.Size = "v4";
             v4.HorsePower = 200;
@@ -38,9 +39,18 @@ namespace Day3
             Auto newCar = Robot.AssemblyCar("154li", v8);
 
             Console.WriteLine(newCar.Engine.FuelConsumptionRate+ " and  " +newCar.Engine.HorsePower);
+            //Console.ReadLine();
+
+            newCar.customer.LastName = "Nalubolu";
+            newCar.customer.Address = "vemdalsgatan 51";
+            newCar.customer.DateOfPurchace = DateTime.Now;
+            Console.WriteLine("my last Name :" + " " + newCar.customer.DateOfPurchace);
             Console.ReadLine();
-
-
+            
+            
+           
         }
+        
+        
     }
 }
