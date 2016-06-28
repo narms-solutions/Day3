@@ -9,6 +9,9 @@ namespace Day3
     class Program
     {
         static void Main(string[] args)
+
+
+
         {
             Auto myCar = new Auto();
             myCar.currentSpeed = 0;

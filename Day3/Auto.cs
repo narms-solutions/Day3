@@ -53,14 +53,14 @@ namespace Day3
         public int Accelerator(int incrementedSpeed)
         {
             currentSpeed += incrementedSpeed;
-            //Console.WriteLine("the current speed:" + speed);
+            myText("the current speed:" + speed);
             return currentSpeed;
 
         }
         public int Decelerator(int decrementedSpeed)
         {
             currentSpeed -= decrementedSpeed;
-            //Console.WriteLine("The current speed:" +speed);
+           myText("The current speed:" +speed);
             return currentSpeed;
         }
         public string speedLimitViolation(int speedLimit, string initialMessage)
@@ -73,8 +73,15 @@ namespace Day3
                 message = "No worries !! It's ok!";
             //initialMessage = "No worries!";
             return message;
+        }
+
+        private void myText(string message)
+        {
+            Console.Write("From Helper Method....");
+            Console.WriteLine(message);
 
         }
+   
 
 
         }
