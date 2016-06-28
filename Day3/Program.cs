@@ -28,12 +28,19 @@ namespace Day3
             v8.HorsePower = 800;
             v8.FuelConsumptionRate = 1.8;
 
-            Auto myCar = new Auto();
-            myCar.Engine = v4;
-           
-            Console.WriteLine(myCar.Engine.FuelConsumptionRate+ " and  " +myCar.Engine.HorsePower);
+            //Auto myCar = new Auto();
+            //myCar.Engine = v4;
+
+            //Console.WriteLine(myCar.Engine.FuelConsumptionRate+ " and  " +myCar.Engine.HorsePower);
+            //Console.ReadLine();
+
+            AssemblyRobot Robot = new AssemblyRobot();
+            Auto newCar = Robot.AssemblyCar("154li", v8);
+
+            Console.WriteLine(newCar.Engine.FuelConsumptionRate+ " and  " +newCar.Engine.HorsePower);
             Console.ReadLine();
-           
+
+
         }
     }
 }

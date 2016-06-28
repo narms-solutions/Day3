@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyRobot.cs" />
     <Compile Include="Auto.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Program.cs" />
