@@ -14,6 +14,7 @@ namespace Day3
         private string make;
         public string Model;
         public string Color;
+        public Engine Engine;
 
         public string Maker
         {
@@ -60,7 +61,7 @@ namespace Day3
         public int Decelerator(int decrementedSpeed)
         {
             currentSpeed -= decrementedSpeed;
-           myText("The current speed:" +speed);
+            myText("The current speed:" +speed);
             return currentSpeed;
         }
         public string speedLimitViolation(int speedLimit, string initialMessage)
