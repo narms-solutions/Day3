@@ -8,10 +8,10 @@ namespace Day3
 {
     class AssemblyRobot
     {
-        public Auto AssemblyCar(string model,Engine engineType)
+        public Auto AssemblyCar(int year,Engine engineType)
         {
             Auto myCar = new Auto();
-            myCar.Model = model;
+            myCar.Year = year;
             myCar.Engine = engineType;
             return myCar;
         }

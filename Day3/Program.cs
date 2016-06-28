@@ -36,11 +36,11 @@ namespace Day3
             //Console.ReadLine();
 
             AssemblyRobot Robot = new AssemblyRobot();
-            Auto newCar = Robot.AssemblyCar("154li", v8);
+            Auto newCar = Robot.AssemblyCar(2005, v6);
 
             Console.WriteLine(newCar.Engine.FuelConsumptionRate+ " and  " +newCar.Engine.HorsePower);
             //Console.ReadLine();
-
+            
             newCar.customer.LastName = "Nalubolu";
             newCar.customer.Address = "vemdalsgatan 51";
             newCar.customer.DateOfPurchace = DateTime.Now;
