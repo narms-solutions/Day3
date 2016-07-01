@@ -45,6 +45,12 @@ namespace Day3
                
             }
         }
+
+        
+            
+
+
+
         public int currentSpeed
         {
             get { return speed; }

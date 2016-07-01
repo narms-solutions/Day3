@@ -10,8 +10,6 @@ namespace Day3
     {
         static void Main(string[] args)
 
-
-
         {
             
             Engine v4 = new Engine();
@@ -44,13 +42,10 @@ namespace Day3
             newCar.customer.LastName = "Nalubolu";
             newCar.customer.Address = "vemdalsgatan 51";
             newCar.customer.DateOfPurchace = DateTime.Now;
+
             Console.WriteLine("my last Name :" + " " + newCar.customer.DateOfPurchace);
             Console.ReadLine();
-            
-            
-           
+          
         }
-        
-        
     }
 }
